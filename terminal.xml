@@ -1,0 +1,17 @@
+<application>
+  <component name="TerminalOptionsProvider">
+    <envs>
+      <env key="RUN_ENV" value="local" />
+      <env key="REDIS_ENDPOINT" value="redis" />
+      <env key="REDIS_PORT" value="6379" />
+      <env key="HOST" value="postgres" />
+      <env key="PORT" value="5432" />
+      <env key="USERNAME" value="$(id -u -n)" />
+      <env key="PASSWORD" value="airflow" />
+      <env key="DBNAME" value="airflow" />
+      <env key="S3_LOG_PREFIX" value="local_etl_airflow/$(id -u -n)" />
+      <env key="HOME_FOLDER" value="$HOME_FOLDER" />
+      <env key="FERNET_KEY" value="'MneRM9kshh2wFlAiQ1mXO6sybJ5I7BSh22naaG2yjMk='" />
+    </envs>
+  </component>
+</application>
