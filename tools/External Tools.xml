@@ -3,7 +3,7 @@
     <exec>
       <option name="COMMAND" value="/Library/Frameworks/Python.framework/Versions/3.6/bin/black" />
       <option name="PARAMETERS" value="&quot;$FilePath$&quot;" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
 </toolSet>
